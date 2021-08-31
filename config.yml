@@ -1,8 +1,7 @@
-server:
-  host: 168.0.0
+  host: 168.0
   port: 3128
-  login: dfdfds
-  password: dfdf
-  queueName: fsdvdfs
-  queueMessages: fdvgfd
+  login: "dfdfds"
+  passwd: "dfdf"
+  queueName: "fsdvdfs"
+  queueMessages: "fdvgfd"
   queueCount: 5546556

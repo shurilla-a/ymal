@@ -11,9 +11,9 @@ type ConfigYmal struct {
 	Port          int    `yaml:"port"`
 	Login         string `yaml:"login"`
 	Password      string `yaml:"passwd"`
-	QueueName     string `yaml:"QueueName"`
-	QueueMessages int    `yaml:"QueueMessages"`
-	QueueCount    string `yaml:"queueCount"`
+	QueueName     string `yaml:"queueName"`
+	QueueMessages string `yaml:"queueMessages"`
+	QueueCount    int    `yaml:"queueCount"`
 }
 
 func inConfigParsing(Configfile string) (*ConfigYmal, error) {
@@ -37,6 +37,7 @@ func main() {
 	fmt.Printf("%v", c)
 }
 
+//
 //func (c *ConfigYmal ) Parse(data []byte) error {
 //	return yaml.Unmarshal(data,c)
 //}
